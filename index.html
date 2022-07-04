@@ -65,14 +65,15 @@
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active carru">
-                <div class="carru_text row">
-                  <h2 class="col-6">
-                      FORMA PARTE DE NUESTRA FAMILIA!
-                  </h2>
-                  <button type="button" class="btn btn-outline-primary boton_carrusel"><a href="">Ver Mas</a></button>
+            <div class="carousel-inner carru">
+                <div class="carru_text ">
+                    <h2 class="">
+                        FORMA PARTE DE NUESTRA FAMILIA!
+                    </h2>
+                    <button type="button" class="btn btn-outline-primary boton_carrusel"><a href="">Ver Mas</a></button>
                 </div>
+                <div class="carousel-item active">
+                
                 <img src="https://cdn.shopify.com/s/files/1/0406/9729/9097/files/GEAR_UP_FOR_1_1500x.jpg?v=1646139231" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
@@ -144,44 +145,85 @@
       <h2>
           <b>Anotate a Nuestras Clases disponibles</b>
       </h2>
-          <div class="galeria_clases row">
-              <div class="clase_de col-3">
-                  <img src="multimedia/img/spinning.jpeg" alt="pareja_haciendo_spinning">
-                  <p><b>Spinning</b> - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consequuntur nemo a</p>
-              </div>
-              <div class="clase_de col-3">
-                  <img src="multimedia/img/yoga.jpg" alt="grupo_haciendo_yoga">
-                  <p><b>Yoga</b> - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consequuntur nemo a</p>
-              </div>
-              <div class="clase_de col-2">
-                  <img src="multimedia/img/entrenamiento-funcional.jpg" alt="3personas_entrenando_kettlebell">
-                  <p><b>Entrenamiento Funcional</b> - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur</p>
-              </div>
-              <div class="clase_de col-2">
-                  <img src="multimedia/img/crossfit.jpg" alt="hombre_moviendo_neumaticogrande">
-                  <p><b>Crossfit</b> - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consequuntur nemo a </p>
-              </div>
-              <div class="clase_de col-2">
-                  <img src="multimedia/img/kickboxing.jpg" alt="mujer_golpeando_bolsa_de_box">
-                  <p><b>Kickboxing</b> - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consequuntur nemo a</p>
-              </div>
-              <div class="clase_de col-2">
-                  <img src="multimedia/img/zumba.jpg" alt="grupo_de_mujeres_zumba">
-                  <p><b>Zumba</b> - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consequuntur nemo a</p>
-              </div>
-              <div class="clase_de col-2">
-                  <img src="multimedia/img/calistenia.jpg" alt="hombre_colgado_de_barra">
-                  <p><b>Calistenia</b> - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consequuntur nemo a</p>
-              </div>
-              <div class="clase_de col-2">
-                  <img src="multimedia/img/minitramp.jpg" alt="grupo_sobre_trampolines">
-                  <p><b>Mini Tramp</b> - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consequuntur nemo a</p>
-              </div>
-              <div class="clase_de col-2">
-                <img src="multimedia/img/aerobics.webp" alt="grupo_sobre_trampolines">
-                <p><b>Aerobics</b> - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consequuntur nemo a</p>
+      <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cards_wraper">
+                <div class="card tarjeta" style="width: 18rem;">
+                    <img src="multimedia/img/entrenamiento-funcional.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><b>Entrenamiento Funciona</b> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptatem!</p>
+                    </div>
+                </div>
+                <div class="card tarjeta" style="width: 18rem;">
+                    <img src="multimedia/img/kickboxing.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><b>Kickboxing</b> - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, ducimus?</p>
+                    </div>
+                </div>
+                <div class="card tarjeta" style="width: 18rem;">
+                    <img src="multimedia/img/minitramp.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><b>Minitramp</b> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, maiores.</p>
+                    </div>
+                </div>
             </div>
           </div>
+          <div class="carousel-item">
+            <div class="cards_wraper">
+                <div class="card tarjeta" style="width: 18rem;">
+                    <img src="multimedia/img/aerobics.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><b>Aerobics</b> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, eius?</p>
+                    </div>
+                </div>
+                <div class="card tarjeta" style="width: 18rem;">
+                    <img src="multimedia/img/calistenia.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><b>Calistenia</b> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam!</p>
+                    </div>
+                </div>
+                <div class="card tarjeta" style="width: 18rem;">
+                    <img src="multimedia/img/crossfit.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><b>Crossfit</b> - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, laborum.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards_wraper">
+                <div class="card tarjeta" style="width: 18rem;">
+                    <img src="multimedia/img/spinning.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><b>Spinning</b> - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, quam!</p>
+                    </div>
+                </div>
+                <div class="card tarjeta" style="width: 18rem;">
+                    <img src="multimedia/img/yoga.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><b>Yoga</b> - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, quidem?</p>
+                    </div>
+                </div>
+                <div class="card tarjeta" style="width: 18rem;">
+                    <img src="multimedia/img/zumba.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><b>Zumba</b> - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, nobis.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
   </section>
 
 
