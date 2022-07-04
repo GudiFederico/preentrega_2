@@ -94,6 +94,10 @@ nav img {
 }
 
 @media  screen and (max-width:640px) {
+
+    .carrusel_img {
+        margin-top: 65px;
+    }
     .carru h2 {
         font-size:30px;
     }
