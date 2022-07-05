@@ -38,9 +38,19 @@ nav img {
     border-color: rgb(205, 253, 11);
 }
 
+@media  screen and (max-width:640px) {
+    .nav-link:hover {
+        color: white;
+        background-color: transparent;
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 1);}
+    
+}
 
 
-/*seccion carruse de imagenes modificada con bootstrap*/
+
+/*seccion carrusel de imagenes modificada con bootstrap*/
 
 .carrusel_img {
     margin-top: 0px;
@@ -56,6 +66,7 @@ nav img {
 .carru_text {
     position: absolute;
     z-index: 1;
+    padding-top: 100px;
     
 }
 .carru_text h2 {
@@ -75,7 +86,7 @@ nav img {
     height: 30px;
     border-color: rgb(205, 253, 11);
     color: rgb(205, 253, 11);
-    margin: 20px 10%;
+    margin: 20px 15%;
 }
 
 .boton_carrusel a {
@@ -85,7 +96,6 @@ nav img {
 
 .boton_carrusel:hover {
     background-color: rgb(205, 253, 11);
-    border-color: none;
     
 }
 
@@ -105,6 +115,7 @@ nav img {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding-top: 0;
     }
     
 }
@@ -124,7 +135,7 @@ nav img {
 .promos h3 {
     text-align: center;
     color: rgb(205, 253, 11);
-    padding: 20px;
+    padding: 30px;
 }
 
 .card {
@@ -234,6 +245,12 @@ nav img {
 .somos { 
     text-align: center;
     padding: 40px;
+}
+
+@media screen and (max-width:640px) {
+    .nosotros iframe {
+        max-width: 400px;
+    }
 }
 
 
